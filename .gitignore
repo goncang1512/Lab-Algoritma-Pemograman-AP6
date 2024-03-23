@@ -1,0 +1,6 @@
+# Ignore folder output
+output/
+
+# Ignore files with .exe extension
+*.exe
+*.vscode
