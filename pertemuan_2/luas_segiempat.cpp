@@ -2,16 +2,21 @@
 
 using namespace std;
 
-int main () {
+int main() {
+    // variable untuk mencari luas segi empat
     float panjang, lebar, luas;
 
+    // Untuk input panjang segiempat
     cout << "Masukkan panjang : ";
     cin >> panjang;
 
+    // Untuk input lebar segiempat
     cout << "Masukkan lebar : ";
     cin >> lebar;
 
-    luas = panjang * lebar; 
+    // Mengalikan panjang dan lebar dan di simpan ke dalam variable luas
+    luas = panjang * lebar;
 
-    cout << "Luas = " << luas;
+    // Menampilkan hasil dari panjang X lebar
+    cout << "Luas = " << luas << endl;
 }

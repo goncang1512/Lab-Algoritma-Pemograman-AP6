@@ -2,18 +2,25 @@
 
 using namespace std;
 
-int main () {
-    const float phi = 3.14;
+int main() {
+    // Konstanta untuk phi 
+    const float PHI = 3.14;
 
-    float jari, tinggi, volume;
+    // Variable volume tabung
+    float r, t, v;
 
+    // Input jari jari tabung
     cout << "Masukkan jari-jari : ";
-    cin >> jari;
+    cin >> r;
 
+    // Input tinggi tabung
     cout << "Masukkan tinggi : ";
-    cin >> tinggi;
+    cin >> t;
 
-    volume = phi * jari * jari * tinggi;
+    // Hitung volume tabung nya 
+    v = PHI * r * r * t;
 
-    cout << "Volume = " << volume;
+    // Tampilkan hasil setelah menjumlahkan PHI * r * r * t;
+    cout << "Volume = " << v << endl;
+    return 0;
 }
